@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="form-container-1">
+        <h1>Sign In</h1>
+        <!-- <form action="#"> -->
+        <div class="control-1">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="cooldude" />
+          <label for="name">Email</label>
+          <input
+            type="text"
+            name="name"
+            id="email"
+            placeholder="email69@gmail.com"
+          />
+        </div>
+        <div class="control-1">
+          <label for="psw">Password</label>
+          <input
+            type="password"
+            name="psw"
+            id="password"
+            placeholder="12345780"
+          />
+        </div>
+        <div class="control-1">
+          <label for="psw">Confirm Password</label>
+          <input
+            type="password"
+            name="psw"
+            id="cnfrmPassword"
+            placeholder="12345780"
+          />
+          <p id="message">Demo Text</p>
+        </div>
+
+        <div class="control-1">
+          <input
+            type="submit"
+            value="Sign Up"
+            onclick="signIn(); confirmPassword(); "
+          />
+
+          <span>
+            <p>Already SignIn <a href="login.html">Log In</a></p>
+          </span>
+        </div>
+
+        <!-- <button type="submit" value="Login" onclick="signUp" /> -->
+        <!-- <button onclick="print()">LOGIN</button> -->
+
+        <!-- </form> -->
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+  /* background-position: center center; */
+}
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  width: 380px;
+
+  padding: 50px 30px;
+  box-shadow: 6px 6px 50px black;
+}
+
+.form-container-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  width: 380px;
+
+  padding: 10px 6px;
+  box-shadow: 6px 6px 50px black;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+  letter-spacing: 3px;
+}
+
+.control-1 {
+  margin: 1em;
+  /* margin-left: 1em;
+  margin-right: 1em; */
+}
+
+.control-1 input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: black;
+  border: none;
+  outline: none;
+  margin: 0.5em 0;
+}
+
+.control-1 input[type="submit"] {
+  background: #faf9f6;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.control-1 input[type="submit"]:hover {
+  opacity: 1;
+  background: #faf9f6;
+}
+
+.link {
+  text-align: center;
+}
+
+.link a {
+  text-decoration: none;
+  opacity: 0.7;
+  font-weight: 1000;
+  /* font-size: 10em; */
+  transition: opacity 0.3s ease;
+}
+
+.link a:hover {
+  opacity: 1;
+  font-weight: 1000;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+button {
+  margin-top: 1em;
+  color: black;
+  width: 100%;
+  height: 35px;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.control-1 p {
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+.control-1 p a {
+  font-size: 1.3em;
+  font-weight: 1000;
+}
+
+.control-1 label {
+  /* font-size: ; */
+  letter-spacing: 1px;
+}
+
+.control-1 .submit {
+  letter-spacing: 2px;
+}
+
+.link a {
+  /* letter-spacing: 2px; */
+}
+
+.control-1 p {
+  text-align: center;
+  display: block;
+}
+
+.control input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: black;
+  border: none;
+  outline: none;
+  margin: 0.5em 0;
+}
+
+.control input[type="submit"] {
+  background: #faf9f6;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.control input[type="submit"]:hover {
+  opacity: 1;
+  background: #faf9f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.control p {
+  font-weight: 1000;
+  font-size: 0.8em;
+}
+
+.control p a {
+  font-size: 1.3em;
+  font-weight: 1000;
+}
+
+.control p {
+  text-align: center;
+  display: block;
+}
