@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="form-container">
+        <h1>login form</h1>
+        <!-- <form action="#"> -->
+        <div class="control">
+          <label for="name">Email</label>
+          <input
+            type="text"
+            name="name"
+            id="email"
+            placeholder="email69@gmail.com"
+          />
+        </div>
+        <div class="control">
+          <label for="psw">Password</label>
+          <input
+            type="password"
+            name="psw"
+            id="password"
+            placeholder="12345780"
+          />
+        </div>
+
+        <span> <input type="checkbox" />Remember me. </span>
+
+        <div class="control">
+          <input
+            class="submit"
+            type="submit"
+            value="Login"
+            onclick="signUp()"
+          />
+          <span>
+            <p>Create an Account <a href="signin.html">Sign In</a></p>
+          </span>
+        </div>
+
+        <!-- <button type="submit" value="Login" onclick="signUp" /> -->
+        <!-- <button onclick="print()">LOGIN</button> -->
+
+        <!-- </form> -->
+        <div class="link">
+          <a href="#">Forgot Password ?</a>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
