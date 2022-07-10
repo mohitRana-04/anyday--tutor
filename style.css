@@ -13,14 +13,14 @@
 }
 
 .swiper {
-  margin-top: 70px;
-  width: 80%;
+  width: 100%;
   height: fit-content;
+  margin: 0 10px;
 }
 
 .swiper-slide img {
   width: 100%;
-  height: 385px;
+  height: 465px;
 }
 
 .swiper .swiper-button-prev,
