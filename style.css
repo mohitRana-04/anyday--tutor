@@ -46,12 +46,6 @@ body {
 
 /*tags*/
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 1000;
-  color: rgb(35, 35, 85);
-}
-
 h6 {
   font-size: 1.1rem;
   color: rgb(24, 24, 49);
@@ -185,7 +179,7 @@ nav .navigation ul li a:hover {
 }
 
 #features {
-  padding: 5vw 8vw 0 8vw;
+  padding: 2vw 8vw 0 8vw;
   text-align: center;
   /* display: flex;
     flex-direction: row; */
@@ -208,23 +202,41 @@ nav .navigation ul li a:hover {
   margin: 1rem;
 }
 
+#features {
+  margin: 1rem;
+
+  /* padding: 8vw 4vw 0 4vw; */
+
+  box-shadow: 0 0 0px 0.2px;
+}
+
+#features h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+  color: rgb(35, 35, 85);
+}
+
 #features .fea-box {
   background: white;
-  text-align: st;
+
+  margin: 1rem;
 }
 #features .fea-box i {
   font-size: 2.3rem;
+  text-align: center;
   color: rgb(44, 44, 80);
 }
 #features .fea-box h3 {
   font-size: 1.2rem;
   font-weight: 600;
+  text-align: center;
   color: rgb(46, 46, 59);
   padding: 13px 0px 7px 0px;
 }
 #features .fea-box p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
+  text-align: justify;
   color: rgb(56, 56, 49);
 }
 
@@ -689,9 +701,6 @@ footer .copyright p {
 
   #home p {
     width: 90%;
-  }
-  #features {
-    padding: 8vw 4vw 0 4vw;
   }
 
   #course {
