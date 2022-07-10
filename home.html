@@ -209,7 +209,7 @@
         <p>Get 100 Online Courses for Free</p>
         <h1>Register To Get It</h1>
         <div class="time">
-          <div class="date" id="days">9</div>
+          <div class="date" id="days">9 </div> 
           <div class="date" id="hours">23</div>
           <div class="date" id="min">4</div>
           <div class="date" id="sec">23</div>
@@ -250,10 +250,10 @@
         console.log(min);
         var sec = Math.floor((diff % (1000 * 60)) / 1000);
         console.log(sec);
-        document.getElementById("days").innerHTML = days;
-        document.getElementById("hours").innerHTML = hours;
-        document.getElementById("min").innerHTML = min;
-        document.getElementById("sec").innerHTML = sec;
+        document.getElementById("days").innerHTML = days+ " days";
+        document.getElementById("hours").innerHTML = hours+" hours";
+        document.getElementById("min").innerHTML = min+" mins";
+        document.getElementById("sec").innerHTML = sec+" sec";
       }, 1000);
     </script>
     <section id="experts">
