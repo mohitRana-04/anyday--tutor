@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+
 .container {
   padding: 0px;
   width: 100%;
@@ -37,16 +41,10 @@
 }
 
 body {
-  font-size: "Poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /*tags*/
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 1000;
-  color: rgb(35, 35, 85);
-}
 
 h6 {
   font-size: 1.1rem;
@@ -55,9 +53,11 @@ h6 {
 
 /*nav bar*/
 nav {
+  font-family: "Source Sans Pro", sans-serif;
+
   position: fixed;
   width: 100%;
-  background-color: azure;
+  background-color: #ffff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -65,10 +65,12 @@ nav {
   padding: 1vw 8vw;
   z-index: 2;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  height: 3.6rem;
 }
 
 nav img {
-  width: 150px;
+  margin: 1rem;
+  width: 9rem;
   cursor: pointer;
 }
 
@@ -100,9 +102,10 @@ nav .navigation ul li {
 nav .navigation ul li a {
   text-decoration: none;
   color: rgb(21, 21, 100);
-  font-size: 16px;
-  font-weight: 500;
+  /* font-size: 16px; */
+  font-weight: 1000;
   transition: 0.3s ease;
+  letter-spacing: 0.05rem;
 }
 
 nav .navigation ul li a:hover {
@@ -128,19 +131,31 @@ nav .navigation ul li a:hover {
 }
 
 #home h2 {
-  color: azure;
-  font-size: 2.2rem;
+  color: #ffff;
+  font-size: 3.5rem;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 #home p {
-  width: 50%;
+  width: 60%;
+  font-weight: 400;
   color: azure;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 25px;
 }
 
 #home .btn {
+  margin-top: 30px;
+}
+
+#home .btn .yellow {
+  color: black;
+  margin-top: 30px;
+}
+
+#home .btn .blue {
+  color: #ffff;
   margin-top: 30px;
 }
 
@@ -176,8 +191,8 @@ nav .navigation ul li a:hover {
 }
 
 #features {
-  padding: 5vw 8vw 0 8vw;
-  text-align: center;
+  padding: 2vw 8vw 0 8vw;
+  /* text-align: center; */
   /* display: flex;
     flex-direction: row; */
   /* display: grid;
@@ -199,28 +214,62 @@ nav .navigation ul li a:hover {
   margin: 1rem;
 }
 
+#features {
+  margin: 1rem;
+
+  /* padding: 8vw 4vw 0 4vw; */
+
+  box-shadow: 0 0 0px 0.2px;
+}
+
+#features h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+  color: rgb(35, 35, 85);
+  text-align: center;
+}
+
 #features .fea-box {
   background: white;
-  text-align: st;
+
+  margin: 1rem;
 }
 #features .fea-box i {
   font-size: 2.3rem;
+  justify-content: center;
   color: rgb(44, 44, 80);
 }
 #features .fea-box h3 {
   font-size: 1.2rem;
   font-weight: 600;
+  text-align: center;
   color: rgb(46, 46, 59);
   padding: 13px 0px 7px 0px;
 }
+
+#features p {
+  text-align: center;
+}
+
 #features .fea-box p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
+  text-align: justify;
   color: rgb(56, 56, 49);
 }
 
+#courses h1 {
+  font-size: 3rem;
+}
+#courses p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  /* justify-content: center; */
+  text-align: justify;
+}
+
 #courses {
-  padding: 8vw 8vw 0 8vw;
+  padding: 2.5vw 8vw 0 8vw;
   text-align: center;
 }
 
@@ -354,6 +403,14 @@ nav .navigation ul li a:hover {
 #experts {
   padding: 8vw 8vw 8vw 8vw;
   text-align: center;
+}
+
+#experts h1 {
+  font-size: 3rem;
+}
+
+#experts p {
+  font-size: 1rem;
 }
 
 #experts .expert-box {
@@ -681,9 +738,6 @@ footer .copyright p {
   #home p {
     width: 90%;
   }
-  #features {
-    padding: 8vw 4vw 0 4vw;
-  }
 
   #course {
     padding: 8vw 4vw 0 4vw;
@@ -774,10 +828,19 @@ footer .copyright p {
   }
 }
 
+#expert ul {
+  /* margin-top: 1rem; */
+  font-size: 3rem;
+}
+
+#expert ul li {
+  font-size: 0.8rem;
+}
+
 ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 1em;
+  margin: 1rem;
 }
 
 ul li img {
