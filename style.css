@@ -131,19 +131,31 @@ nav .navigation ul li a:hover {
 }
 
 #home h2 {
-  color: azure;
-  font-size: 2.2rem;
+  color: #ffff;
+  font-size: 3.5rem;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 #home p {
-  width: 50%;
+  width: 60%;
+  font-weight: 400;
   color: azure;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 25px;
 }
 
 #home .btn {
+  margin-top: 30px;
+}
+
+#home .btn .yellow {
+  color: black;
+  margin-top: 30px;
+}
+
+#home .btn .blue {
+  color: #ffff;
   margin-top: 30px;
 }
 
@@ -180,7 +192,7 @@ nav .navigation ul li a:hover {
 
 #features {
   padding: 2vw 8vw 0 8vw;
-  text-align: center;
+  /* text-align: center; */
   /* display: flex;
     flex-direction: row; */
   /* display: grid;
@@ -214,6 +226,7 @@ nav .navigation ul li a:hover {
   font-size: 4rem;
   font-weight: 1000;
   color: rgb(35, 35, 85);
+  text-align: center;
 }
 
 #features .fea-box {
@@ -223,7 +236,7 @@ nav .navigation ul li a:hover {
 }
 #features .fea-box i {
   font-size: 2.3rem;
-  text-align: center;
+  justify-content: center;
   color: rgb(44, 44, 80);
 }
 #features .fea-box h3 {
@@ -233,6 +246,11 @@ nav .navigation ul li a:hover {
   color: rgb(46, 46, 59);
   padding: 13px 0px 7px 0px;
 }
+
+#features p {
+  text-align: center;
+}
+
 #features .fea-box p {
   font-size: 1rem;
   font-weight: 500;
@@ -240,8 +258,18 @@ nav .navigation ul li a:hover {
   color: rgb(56, 56, 49);
 }
 
+#courses h1 {
+  font-size: 3rem;
+}
+#courses p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  /* justify-content: center; */
+  text-align: justify;
+}
+
 #courses {
-  padding: 8vw 8vw 0 8vw;
+  padding: 2.5vw 8vw 0 8vw;
   text-align: center;
 }
 
@@ -375,6 +403,14 @@ nav .navigation ul li a:hover {
 #experts {
   padding: 8vw 8vw 8vw 8vw;
   text-align: center;
+}
+
+#experts h1 {
+  font-size: 3rem;
+}
+
+#experts p {
+  font-size: 1rem;
 }
 
 #experts .expert-box {
@@ -792,10 +828,19 @@ footer .copyright p {
   }
 }
 
+#expert ul {
+  /* margin-top: 1rem; */
+  font-size: 3rem;
+}
+
+#expert ul li {
+  font-size: 0.8rem;
+}
+
 ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 1em;
+  margin: 1rem;
 }
 
 ul li img {
