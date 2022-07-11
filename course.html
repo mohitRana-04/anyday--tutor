@@ -1,70 +1,211 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="style1.css" /> -->
-    <link rel="stylesheet" href="style.css" />
+    <title>Anyday Tutor</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/8e29430088.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="blogStyle.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   </head>
-
   <body>
     <nav>
       <img src="images/logo.svg" alt="" />
       <div class="navigation">
         <ul>
           <i id="menu-close" class="fas fa-times"></i>
-          <li><a class="active" href="home.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a class="active" href="blog.html">Blogs</a></li>
           <li><a href="course.html">Courses</a></li>
+          
         </ul>
-        <img id="menu-btn" src="images/menu.png" alt="" />
+        <img id="menu-btn" src="images/menu.png" alt="">
       </div>
     </nav>
-    <section class="course">
-      <h1>Courses We Offer</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adip</p>
 
-      <div class="row">
-        <div class="course-column">
-          <h3>Intermediate</h3>
-          <img src="https://picsum.photos/200" alt="Intermediate " />
+    <div class = "banner">
+      <div class = "container">
+        <h1 class = "banner-title">
+          <span>Anyday Tutor Courses</span> 
+        </h1>
+        <p>Confused !! grab one </p>
+        <form>
+          <input type = "text" class = "search-input" placeholder="find your course . . .">
+          <button type = "submit" class = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <!-- end of header -->
+  
+  <!-- design -->
+  <section class = "design" id = "design">
+    <div class = "container">
+      <div class = "title">
+        <h2>Popular Courses</h2>
+        <p>recent Anyday designs on the blog</p>
+      </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            debitis atque qui dicta iusto nemo voluptatibus beatae dolore eos
-            consequatur, ipsa repellendus nisi fuga sunt distinctio iure quas at
-            ex?
-          </p>
-
-          <p class="duration">Duration: 8 weeks</p>
+      <div class = "design-content">
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfpXMwTcgpB8OWR7IMZ23YqoQuNm0EwgjgiA&usqp=CAU" alt = "">
+            <span><i class = "far fa-heart"></i> 22</span>
+            <span>Anyday Tutor</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">make an awesome anyday portfolio for college or university</a>
+          </div>
         </div>
-
-        <div class="course-column">
-          <h3>Degree</h3>
-          <img src="https://picsum.photos/201" alt="Intermediate " />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            debitis atque qui dicta iusto nemo voluptatibus beatae dolore eos
-            consequatur, ipsa repellendus nisi fuga sunt distinctio iure quas at
-            ex?
-          </p>
-          <p class="duration">Duration: 8 weeks</p>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "https://www.creative-tim.com/blog/content/images/wordpress/2019/10/The-Top-10-Javascript-Frameworks.jpg" alt = "">
+            <span><i class = "far fa-heart"></i> 22</span>
+            <span>Anyday Tutor</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">make an awesome Anyday portfolio for college or university</a>
+          </div>
         </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "https://www.trio.dev/hubfs/Imported_Blog_Media/7fad34d867a32f732b37534ff013e916-3-2.jpg" alt = "">
+            <span><i class = "far fa-heart"></i> 22</span>
+            <span>Anyday Tutor</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">make an awesome Anyday portfolio for college or university</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/184300iC067819AE50300F4?v=v2" alt = "">
+            <span><i class = "far fa-heart"></i> 22</span>
+            <span>Anyday Tutor</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">make an awesome Anyday portfolio for college or university</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190902124355/ruby-programming-language.png" alt = "">
+            <span><i class = "far fa-heart"></i> 22</span>
+            <span>Anyday Tutor</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">make an awesome Anyday portfolio for college or university</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "https://cdn.thenewstack.io/media/2022/05/600b72f9-react-1024x680.png" alt = "">
+            <span><i class = "far fa-heart"></i> 22</span>
+            <span>Anyday Tutor</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">make an awesome Anyday portfolio for college or university</a>
+          </div>
+        </div>
+        <!-- end of item -->
+      </div>
+    </div>
+  </section>
+  <!-- end of design -->
 
-        <div class="course-column">
-          <h3>Post Graduation</h3>
-          <img src="https://picsum.photos/202" alt="Intermediate " />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            debitis atque qui dicta iusto nemo voluptatibus beatae dolore eos
-            consequatur, ipsa repellendus nisi fuga sunt distinctio iure quas at
-            ex?
-          </p>
-          <p class="duration">Duration: 8 weeks</p>
+
+  <!-- blog -->
+  
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power tools</li>
+        <li>Managed Websites</li>
+        <li>Marketing Services</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power tools</li>
+        <li>Managed Websites</li>
+        <li>Marketing Services</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power tools</li>
+        <li>Managed Websites</li>
+        <li>Marketing Services</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Manage Reputation</li>
+        <li>Power tools</li>
+        <li>Managed Websites</li>
+        <li>Marketing Services</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us if you want or otherwise change your taste</p>
+        <div class="Subscribe">
+          <input type="text" placeholder="Your email address">
+          <a href="#" class="yellow">SUBSCRIBE</a>
         </div>
       </div>
-    </section>
+      <div class="copyright">
+        <p>"Copyright @2022 All rights reserved| This website has been made by ITW2"</p>
+        <div class="prolinks">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+      
+    </footer>
+
+    <script>
+      $('#menu-btn').click(function(){
+          $('nav .navigation ul').addClass('active')
+      });
+      $('#menu-close').click(function(){
+          $('nav .navigation ul').removeClass('active')
+      });
+    </script>
+  </body>
+</html>
+
   </body>
 </html>
