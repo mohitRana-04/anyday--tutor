@@ -282,9 +282,10 @@ nav .navigation ul li a:hover {
 }
 
 #courses .course {
+  box-shadow: 0 0 1px 1px black;
   text-align: start;
   /* background: red; */
-  height: 100%;
+  /* height: 1%; */
   width: 50%;
   position: relative;
   margin: 1vw 2vw;
