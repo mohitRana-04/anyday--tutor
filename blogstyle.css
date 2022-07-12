@@ -137,13 +137,13 @@ header {
 }
 .banner-title {
   margin-top: 10vw;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: var(--Playfair);
-  line-height: 1.2;
+  /* line-height: 1; */
 }
 .banner-title span {
   font-family: var(--Playfair);
-  color: var(--exDark);
+  color: var(--dark);
 }
 .banner p {
   padding: 1rem 0 2rem 0;

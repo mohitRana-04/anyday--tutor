@@ -1,303 +1,70 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anyday Tutor</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/8e29430088.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="coursesstyle.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style1.css" /> -->
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <nav>
       <img src="images/logo.svg" alt="" />
       <div class="navigation">
         <ul>
           <i id="menu-close" class="fas fa-times"></i>
-          <li><a href="home.html">Home</a></li>
-          <li><a  href="about.html">About</a></li>
-          <li><a class="active" href="blog.html">Blogs</a></li>
+          <li><a class="active" href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blogs</a></li>
           <li><a href="course.html">Courses</a></li>
-          
         </ul>
-        <img id="menu-btn" src="images/menu.png" alt="">
+        <img id="menu-btn" src="images/menu.png" alt="" />
       </div>
     </nav>
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adip</p>
 
-    <div class = "banner">
-      <div class = "container">
-        <h1 class = "banner-title">
-          <span>Anyday Tutor Courses</span> 
-        </h1>
-        <p>Confused !! grab one </p>
-        <form>
-          <input type = "text" class = "search-input" placeholder="find your course . . .">
-          <button type = "submit" class = "search-btn">
-            <i class = "fas fa-search"></i>
-          </button>
-        </form>
-      </div>
-    </div>
-  </header>
-  <!-- end of header -->
-  
-  <!-- design -->
-  <section class = "design" id = "design">
-    <div class = "container">
-      <div class = "title">
-        <h2>Popular Courses</h2>
-        <p>recent Anyday designs on the blog</p>
-      </div>
+      <div class="row">
+        <div class="course-column">
+          <h3>Intermediate</h3>
+          <img src="https://picsum.photos/200" alt="Intermediate " />
 
-      <div class = "design-content">
-        <!-- item -->
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "http://couponos.me/wp-content/uploads/Node.js-Express-MongoDB-More-The-Complete-Bootcamp-2022.jpg" alt = "">
-            <span><i class = "far fa-heart"></i> 4.6</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">
-              Node.js, Express, MongoDB & More: The Complete Bootcamp 2022</a>
-          </div>
-        </div>
-        <!-- end of item -->
-        <!-- item -->
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://i2.wp.com/getintocourse.com/wp-content/uploads/2021/07/Modern-JavaScript-for-React-JS-%E2%80%93-ES6.jpg?fit=750%2C422&ssl=1" alt = "">
-            <span><i class = "far fa-heart"></i> 4.2</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">modern javascript (complete guide from novice to ninja)</a>
-          </div>
-        </div>
-        <!-- end of item -->
-        <!-- item -->
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://ccweb.imgix.net/https%3A%2F%2Fd3f1iyfxxz8i1e.cloudfront.net%2Fcourses%2Fcourse_image%2F3d4a44d92268.jpg?ar=16%3A9&auto=format&cs=strip&fit=crop&h=380&ixlib=php-3.3.1&w=535&s=5a21c4a4d45d016184ad8449c40de2d3" alt = "">
-            <span><i class = "far fa-heart"></i> 4.3</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">Angular the complete guide 2022</a>
-          </div>
-        </div>
-        <!-- end of item -->
-        <!-- item -->
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/7vjtVUXBQHyTO4AhJ7mW" alt = "">
-            <span><i class = "far fa-heart"></i> 4.5</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">mongodb the developer guide</a>
-          </div>
-        </div>
-        <!-- end of item -->
-        <!-- item -->
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://www.filepicker.io/api/file/zRE6jb1GS0eMC8zAD9Fe" alt = "">
-            <span><i class = "far fa-heart"></i> 4.7</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">React - The Complete Guide (incl Hooks, React Router, Redux)</a>
-          </div>
-        </div>
-        <!-- end of item -->
-        <!-- item -->
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://www.courselelo.com/photos/poster/41b14ec1170f9ca81a6fc9daf97635f7.jpg" alt = "">
-            <span><i class = "far fa-heart"></i> 4.8</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">User Experience (UX): The Ultimate Guide to Usability and UX</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://149695847.v2.pressablecdn.com/wp-content/uploads/2018/12/396876_cc92_7.jpg" alt = "">
-            <span><i class = "far fa-heart"></i> 4.5</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">make an awesome Anyday portfolio for college or university</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://media.onlinecoursebay.com/2019/03/07000013/18212_8a1f_8-750x405.jpg" alt = "">
-            <span><i class = "far fa-heart"></i> 4.7</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">Excel Deep Dive: Pivot Tables Workshop</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://www.videoschool.com/wp-content/uploads/2021/10/Photography-for-Kids-course-image.jpg" alt = "">
-            <span><i class = "far fa-heart"></i> 4.3</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">Photography for Kids: Project-Based Beginner Photography</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://media.onlinecoursebay.com/2019/03/29030926/1485210_5387.jpg" alt = "">
-            <span><i class = "far fa-heart"></i> 4.9</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">Master Unity By Building 6 Fully Featured Games From Scratch</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://file-uploads.teachablecdn.com/20a9a9e4d69c4561bc25cd291c7137e1/84505390ec7e4a219c42083844b94c73" alt = "">
-            <span><i class = "far fa-heart"></i> 4.6</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">Complete C# Unity Game Developer 2D</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://universalfreecourse.com/uploads/images/2021/06/webp/image_750x_60c82c33118b9.webp" alt = "">
-            <span><i class = "far fa-heart"></i> 4.5</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">The Complete Android S + Java Developer Course™ : 2022</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://www.zenq.com/wp-content/uploads/2019/09/selenium-4-banner-2000x1136.png" alt = "">
-            <span><i class = "far fa-heart"></i> 3.9</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">Selenium 4 WebDriver with Java(Basics + Advance + Architect)</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://coursemarks.com/wp-content/uploads/2020/11/947098_02ec.jpg.webp" alt = "">
-            <span><i class = "far fa-heart"></i> 4.7</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">Understanding TypeScript - 2022 Edition</a>
-          </div>
-        </div>
-        <div class = "design-item">
-          <div class = "design-img">
-            <img src = "https://www.foxinfotech.in/wp-content/uploads/2021/12/php-for-beginners-become-a-php-master-cms-project.jpg" alt = "">
-            <span><i class = "far fa-heart"></i> 4.1</span>
-            <span>Anyday Tutor</span>
-          </div>
-          <div class = "design-title">
-            <a href = "#">PHP for Beginners - Become a PHP Master - CMS Project</a>
-          </div>
-        </div>
-        
-        <!-- end of item -->
-      </div>
-    </div>
-  </section>
-  <!-- end of design -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            debitis atque qui dicta iusto nemo voluptatibus beatae dolore eos
+            consequatur, ipsa repellendus nisi fuga sunt distinctio iure quas at
+            ex?
+          </p>
 
+          <p class="duration">Duration: 8 weeks</p>
+        </div>
 
-  <!-- blog -->
-  
-    <footer>
-      <div class="footer-col">
-        <h3>Top Products</h3>
-        <li>Manage Reputation</li>
-        <li>Power tools</li>
-        <li>Managed Websites</li>
-        <li>Marketing Services</li>
-      </div>
+        <div class="course-column">
+          <h3>Degree</h3>
+          <img src="https://picsum.photos/201" alt="Intermediate " />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            debitis atque qui dicta iusto nemo voluptatibus beatae dolore eos
+            consequatur, ipsa repellendus nisi fuga sunt distinctio iure quas at
+            ex?
+          </p>
+          <p class="duration">Duration: 8 weeks</p>
+        </div>
 
-      <div class="footer-col">
-        <h3>Top Products</h3>
-        <li>Manage Reputation</li>
-        <li>Power tools</li>
-        <li>Managed Websites</li>
-        <li>Marketing Services</li>
-      </div>
-
-      <div class="footer-col">
-        <h3>Top Products</h3>
-        <li>Manage Reputation</li>
-        <li>Power tools</li>
-        <li>Managed Websites</li>
-        <li>Marketing Services</li>
-      </div>
-
-      <div class="footer-col">
-        <h3>Guides</h3>
-        <li>Manage Reputation</li>
-        <li>Power tools</li>
-        <li>Managed Websites</li>
-        <li>Marketing Services</li>
-      </div>
-
-      <div class="footer-col">
-        <h3>Newsletter</h3>
-        <p>You can trust us if you want or otherwise change your taste</p>
-        <div class="Subscribe">
-          <input type="text" placeholder="Your email address">
-          <a href="#" class="yellow">SUBSCRIBE</a>
+        <div class="course-column">
+          <h3>Post Graduation</h3>
+          <img src="https://picsum.photos/202" alt="Intermediate " />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            debitis atque qui dicta iusto nemo voluptatibus beatae dolore eos
+            consequatur, ipsa repellendus nisi fuga sunt distinctio iure quas at
+            ex?
+          </p>
+          <p class="duration">Duration: 8 weeks</p>
         </div>
       </div>
-      <div class="copyright">
-        <p>"Copyright @2022 All rights reserved| This website has been made by ITW2"</p>
-        <div class="prolinks">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin-in"></i>
-        </div>
-      </div>
-      
-    </footer>
-
-    <script>
-      $('#menu-btn').click(function(){
-          $('nav .navigation ul').addClass('active')
-      });
-      $('#menu-close').click(function(){
-          $('nav .navigation ul').removeClass('active')
-      });
-    </script>
-  </body>
-</html>
-
+    </section>
   </body>
 </html>
