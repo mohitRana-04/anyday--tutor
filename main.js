@@ -25,7 +25,7 @@ const signUp = () => {
     .auth()
     .signInWithEmailAndPassword(email, password)
     .then((result) => {
-      location.href = "./home.html";
+      location.href = "./entered/home.html";
       // document.write("You are sign in");
       console.log(result);
     })
